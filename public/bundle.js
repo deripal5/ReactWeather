@@ -25010,7 +25010,7 @@
 	      React.createElement(
 	        'form',
 	        { onSubmit: this.onFormSubmit },
-	        React.createElement('input', { type: 'text', ref: 'location' }),
+	        React.createElement('input', { type: 'text', placeholder: 'Enter Your Location', ref: 'location' }),
 	        React.createElement(
 	          'button',
 	          null,
@@ -26602,9 +26602,18 @@
 
 	var Examples = function Examples(props) {
 	  return React.createElement(
-	    'h3',
+	    'div',
 	    null,
-	    'Examples Component !'
+	    React.createElement(
+	      'h3',
+	      null,
+	      'Examples Component !'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Welcome to example page ! '
+	    )
 	  );
 	};
 
