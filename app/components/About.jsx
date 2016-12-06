@@ -3,8 +3,14 @@ var React = require('react');
 var About =  (props) => {
   return(
    <div>
-      <h3>About</h3>
-      <p>Welcome to About Page!</p>
+      <h1 className="text-centered">About</h1>
+      <p>This is  a weather aplication build on React. I Have built this 
+      for the Complete React Web Aplication Course</p>
+      <p>Here are some tools I used </p>
+      <ul>
+        <li><a href="http://facebook.github.io/react">React</a> - This is javasrcipt framwork used</li>
+        <li><a href="http://openweathermap.org">Open Weather Map</a>- I used Open Weather Map to search for weather data by city name</li>
+      </ul>
    </div>
   )
 };
